@@ -1,6 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Bigelow+Rules&family=Oleo+Script:wght@400;700&display=swap');
+
+
 body{
     margin: 0;
     padding: 0;
+}
+
+h1{
+    font-family: "Oleo Script", system-ui;
+    font-size: 40px;
 }
 
 header{
@@ -26,9 +34,32 @@ nav ul {
     li:hover {
       color: black;
     }
-  }
+}
   
-  nav ul li {
+nav ul li {
     font-size: 40px;
     color: white;
+}
+
+.hero{
+    position: relative;
+}
+
+.imageHero{
+    width: 100%;
+    height: auto;
   }
+
+.titreHero{
+    position: absolute;
+    color: white;
+    background-color: #6a3460;
+    width: 507px;
+    height: 101.15px;
+    top: 263px;
+    left: 40px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
