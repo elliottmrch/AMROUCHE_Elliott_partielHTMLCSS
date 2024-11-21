@@ -1,146 +1,146 @@
-@import url('https://fonts.googleapis.com/css2?family=Bigelow+Rules&family=Oleo+Script:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bigelow+Rules&family=Oleo+Script:wght@400;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bigelow+Rules&family=Oleo+Script:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bigelow+Rules&family=Oleo+Script:wght@400;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 
-body{
-    margin: 0;
-    padding: 0;
-    font-family: "Open Sans", sans-serif;
-    font-size: 24px;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
 }
 
-h1{
-    font-family: "Oleo Script", system-ui;
-    font-size: 40px;
+h1 {
+  font-family: "Oleo Script", system-ui;
+  font-size: 40px;
 }
 
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 110px;
-    padding-right: 80px;
-    height: 100px;
-    background-color: #6a3460;
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 110px;
+  padding-right: 80px;
+  height: 100px;
+  background-color: #6a3460;
 }
 
-.logoHeader{
-    width: 109.09px;
-    height: 100px;
+.logoHeader {
+  width: 109.09px;
+  height: 100px;
 }
 
 nav ul {
-    display: flex;
-    list-style: none;
-    gap: 15px;
-  
-    li:hover {
-      color: black;
-    }
+  display: flex;
+  list-style: none;
+  gap: 15px;
+
+  li:hover {
+    color: black;
+  }
 }
-  
+
 nav ul li {
-    font-size: 40px;
-    color: white;
+  font-size: 40px;
+  color: white;
 }
 
-.hero{
-    position: relative;
-    width: 100%;
+.hero {
+  position: relative;
+  width: 100%;
 }
 
-.imageHero{
-    width: 100%;
-    height: auto;
+.imageHero {
+  width: 100%;
+  height: auto;
+}
+
+.titreHero {
+  position: absolute;
+  color: white;
+  background-color: #6a3460;
+  width: 507px;
+  height: 101.15px;
+  top: 263px;
+  left: 40px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainContainer {
+  background-color: #e4dce2;
+  height: 331px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.titreMainContainer {
+  font-size: 30px;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.groupeImageMain {
+  display: flex;
+  justify-content: space-around;
+  font-weight: bold;
+
+  p {
+    margin: 0;
   }
 
-.titreHero{
-    position: absolute;
-    color: white;
+  :hover {
     background-color: #6a3460;
-    width: 507px;
-    height: 101.15px;
-    top: 263px;
-    left: 40px;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  }
 }
 
-.mainContainer{
-    background-color: #e4dce2;
-    height: 331px;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+.CTA {
+  position: relative;
+  width: 100%;
 }
 
-.titreMainContainer{
-    font-size: 30px;
-    margin: 0;
-    margin-bottom: 30px;
+.imagePlage {
+  width: 100%;
+  height: auto;
 }
 
-.groupeImageMain{
-    display: flex;
-    justify-content: space-around;
-    font-weight: bold;
-    
-    p{
-        margin: 0;
-    }
-
-    :hover{
-        background-color: #6a3460;
-    }
+.boutonParti {
+  text-transform: uppercase;
+  position: absolute;
+  margin: 0;
+  width: 225px;
+  height: 100px;
+  top: 35%;
+  left: 45%;
+  background-color: #6a3460;
+  color: white;
+  border-radius: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 1s;
 }
 
-.CTA{
-    position: relative;
-    width: 100%;
+.boutonParti:hover {
+  transform: scale(1.5);
+  background-color: white;
+  border: 3px, solid #6a3460;
+  color: #6a3460;
 }
 
-.imagePlage{
-    width: 100%;
-    height: auto;
+footer {
+  height: 270px;
+  background-color: #6a3460;
+  display: flex;
+  justify-content: center;
 }
 
-.boutonParti{
-    text-transform: uppercase;
-    position: absolute;
-    margin: 0;
-    width: 225px;
-    height: 100px;
-    top: 35%;
-    left: 45%;
-    background-color:#6a3460;
-    color: white;
-    border-radius: 30px;
-    font-size: 20px;
-    font-weight: bold;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: transform 1s;
-}
-
-.boutonParti:hover{
-    transform: scale(1.5);
-    background-color:white;
-    border: 3px, solid #6a3460;
-    color: #6a3460;
-}
-
-footer{
-    height: 270px;
-    background-color: #6a3460;
-    display: flex;
-    justify-content: center;
-}
-
-.logoFooter{
-    width: 334px;
-    height: 267.99px;
+.logoFooter {
+  width: 334px;
+  height: 267.99px;
 }
 
 /* Des traits blanc qui délimitent les parties principales alors qu'il n'y a pas de margin ou de padding.
